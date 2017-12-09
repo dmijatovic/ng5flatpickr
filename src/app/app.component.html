@@ -4,34 +4,68 @@
   Welcome to {{ title }}!
 </h1>
 
-<h2><a href="https://chmln.github.io/flatpickr/" target="_new">Documentation</a></h2>
-
-<h2>Flatpicker with time</h2>
+<p>Flatpicker with time where <strong>end date cannot have lower value than start date</strong></p>
 <p>
-  <input id="startDate1"
+  <input id="sd0"
     class="flatpickr flatpickr-input"
     type="text"
-    name="startDate"
+    name="sd0"
     placeholder="Start date">
 
-  <input id="endDate1"
+  <input id="ed0"
     class="flatpickr flatpickr-input"
     type="text"
-    name="endDate"
+    name="ed0"
     placeholder="End date">
 </p>
 
-<h2>Flatpicker with date only</h2>
 <p>
-  <input id="startDate2"
+  Flatpicker with date only. <b>Dutch locale on start date, Russian locale on end date.</b>
+  Here you can see a list of all 
+    <a href="https://github.com/chmln/flatpickr/tree/master/src/l10n " target="_new">
+      supported locales
+    </a> by flatpickr.
+</p>
+<p>
+  <input id="sd1"
     class="flatpickr flatpickr-input"
     type="text"
-    name="startDate2"
+    name="sd1"
     placeholder="Start date">
 
-  <input id="endDate2"
+  <input id="ed1"
     class="flatpickr flatpickr-input"
     type="text"
-    name="endDate2"
+    name="ed1"
     placeholder="End date">
 </p>
+
+
+<p>Flatpicker using one date and separate <b>start and end time</b></p>
+<p>
+  <label for="sd2">Op</label>
+  <input id="sd2"
+    class="flatpickr flatpickr-input"
+    type="text"
+    name="sd2"
+    placeholder="DD-MM-JJJJ">
+  
+  <label for="st0">van:</label>
+  <input id="st0"
+    class="flatpickr flatpickr-input"
+    type="text"
+    name="st0"
+    placeholder="HH:MM">
+
+  <label for="et0">tot:</label>
+  <input id="et0"
+    class="flatpickr flatpickr-input"
+    type="text"
+    name="et0"
+    placeholder="HH:MM">
+</p>
+
+
+<h2>
+  <a href="https://chmln.github.io/flatpickr/" target="_new">Flatpickr documentation</a>
+</h2>
